@@ -12,7 +12,7 @@ public class MatrixDrawer : MonoBehaviour
 
     private List<List<int>> array = new ()
     {
-        new List<int>(){1,2,3},
+        new List<int>(){1,6,3},
         new List<int>(){4,5,6},
         new List<int>(){9,8,7},
     };
