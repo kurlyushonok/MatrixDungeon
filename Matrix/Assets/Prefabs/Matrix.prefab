@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3568002189327456266}
   - component: {fileID: 7314791931751067658}
-  - component: {fileID: 4091518640561064988}
   - component: {fileID: 2829111310837216712}
+  - component: {fileID: 4970522252858913850}
   m_Layer: 5
   m_Name: Matrix
   m_TagString: Untagged
@@ -58,26 +58,12 @@ MonoBehaviour:
   m_ChildAlignment: 1
   m_Spacing: 15
   m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 0
+  m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
-  m_ChildControlHeight: 0
+  m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &4091518640561064988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3482173754430748094}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalFit: 1
-  m_VerticalFit: 1
 --- !u!114 &2829111310837216712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,3 +78,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stringDrawerPrefab: {fileID: 6591852056741692451, guid: 7e267be147caa794995c4b30265aaf97, type: 3}
   layoutGroup: {fileID: 7314791931751067658}
+  button: {fileID: 0}
+--- !u!114 &4970522252858913850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3482173754430748094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 2
+  m_VerticalFit: 2

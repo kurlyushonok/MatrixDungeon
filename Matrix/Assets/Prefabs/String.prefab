@@ -36,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &465981709861355654
 CanvasRenderer:
@@ -65,9 +65,9 @@ MonoBehaviour:
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 15
-  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 0
+  m_ChildControlWidth: 1
   m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
@@ -84,5 +84,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b00e20256638f4185b70a5359de696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cellDrawerPrefab: {fileID: 2390696696912734498, guid: c73f14ecde070f442ae96ed7abf8c1c1, type: 3}
+  cellDrawerPrefab: {fileID: 1573666153458017168, guid: c73f14ecde070f442ae96ed7abf8c1c1, type: 3}
   layoutGroup: {fileID: 7098324181483078915}
