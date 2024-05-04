@@ -5,9 +5,9 @@ using System.Net.Http.Headers;
 using UnityEngine;
 using Random = System.Random;
 
-public class MatrixGenerator
+public static class MatrixGenerator
 {
-    public List<List<int>> GetMatrix(int minValue, int maxValue, int rowCnt, int columnCnt)
+    public static List<List<int>> GetMatrix(int minValue, int maxValue, int rowCnt, int columnCnt)
     {
         if (rowCnt <= 0 || columnCnt <= 0) throw new InvalidOperationException();
         var rnd = new Random();
