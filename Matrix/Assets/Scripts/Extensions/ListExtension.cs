@@ -4,10 +4,14 @@ namespace DefaultNamespace.Extensions
 {
     public static class ListExtension
     {
-        public static bool IsEqual<T>(this List<List<T>> list, List<List<T>> other)
+        public static bool IsEqual(this List<List<int>> list, List<List<int>> other)
         {
-            //TODO сделать логику сравнения листов по значениям
-            return false;
+            if (list.Count != other.Count) return false;
+            for (int i = 0; i < list.Count; i++)
+                for (int j = 0; j < list.Count; j++)
+                    if (list[i][j] != other[i][j])
+                        return false;
+            return true;
         }
     }
 }

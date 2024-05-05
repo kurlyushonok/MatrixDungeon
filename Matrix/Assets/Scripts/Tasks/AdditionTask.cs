@@ -37,7 +37,18 @@ namespace Tasks
 
         public override List<List<int>> GetRightAnswer()
         {
-            return _matrix1;
+            var answer = new List<List<int>>();
+            for (int i = 0; i < rowCnt; i++)
+            {
+                var row = new List<int>();
+                for (int j = 0; j < columnCnt; j++)
+                {
+                    row.Add(_matrix1[i][j] + _matrix2[i][j]);
+                }
+                answer.Add(row);
+            }
+
+            return answer;
         }
     }
 }
