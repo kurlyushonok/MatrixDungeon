@@ -404,8 +404,12 @@ PrefabInstance:
       value: Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 6441077433381548921, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0003624
+      objectReference: {fileID: 0}
+    - target: {fileID: 6441077433381548921, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -186
+      value: -361
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
