@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using DefaultNamespace.Extensions;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -19,6 +20,16 @@ namespace Tasks
 
         protected override void GenerateTask()
         {
+            foreach (var elem in _layoutGroup.GetComponentsInChildren<MatrixDrawer>())
+            {
+                Destroy(elem.gameObject);
+            }
+
+            foreach (var elem in _layoutGroup.GetComponentsInChildren<TMP_Text>())
+            {
+                Destroy(elem.gameObject);
+            }
+            
             _matrix1 = MatrixGenerator.GetMatrix(minValue, maxValue, rowCnt, columnCnt);
             _matrix2 = MatrixGenerator.GetMatrix(minValue, maxValue, rowCnt, columnCnt);
             var matrix1Drawer = GenerateMatrix(_matrix1);
@@ -30,9 +41,9 @@ namespace Tasks
             instance2.text = "=";
         }
 
-        protected override void CheckTask()
+        public override bool CheckTask(List<List<int>> answer)
         {
-            throw new System.NotImplementedException();
+            return answer.IsEqual(GetRightAnswer());
         }
 
         public override List<List<int>> GetRightAnswer()

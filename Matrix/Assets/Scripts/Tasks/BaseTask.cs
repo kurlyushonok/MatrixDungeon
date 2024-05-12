@@ -7,9 +7,9 @@ public abstract class BaseTask : ScriptableObject
 {
     protected LayoutGroup _layoutGroup;
     [SerializeField] private MatrixDrawer matrixDrawerPrefab;
-    
+
     protected abstract void GenerateTask();
-    protected abstract void CheckTask();
+    public abstract bool CheckTask(List<List<int>> answer);
     public abstract List<List<int>> GetRightAnswer();
 
     protected MatrixDrawer GenerateMatrix(List<List<int>> matrix)
