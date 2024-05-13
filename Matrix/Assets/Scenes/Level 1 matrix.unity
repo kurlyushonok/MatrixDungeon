@@ -414,6 +414,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 309583269331313174, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1189548481587434869, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
       propertyPath: Disabled.m_PersistentCalls.m_Calls.Array.size
       value: 1
