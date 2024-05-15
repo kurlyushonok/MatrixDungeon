@@ -67,8 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u041F\u043E\u0434\u0441\u043A\u0430\u0437\u043A\u0430"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a9275e07d16b2b541a3e687d433a5a4b, type: 2}
+  m_sharedMaterial: {fileID: -409170315229277669, guid: a9275e07d16b2b541a3e687d433a5a4b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -802,6 +802,10 @@ PrefabInstance:
     - target: {fileID: 1281017387870816111, guid: 04552b5763504d341a0ae2f84dbdd856, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1311708541630158284, guid: 04552b5763504d341a0ae2f84dbdd856, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1463299340522001577, guid: 04552b5763504d341a0ae2f84dbdd856, type: 3}
       propertyPath: m_Pivot.x
