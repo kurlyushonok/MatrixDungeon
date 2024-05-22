@@ -11,7 +11,7 @@ namespace DefaultNamespace
 
         public void Awake()
         {
-            taskDrawer.NotOkAnswerGetted.AddListener(OnHpChanged);
+            _player.HpChanged.AddListener(OnHpChanged);
             OnHpChanged();
         }
 

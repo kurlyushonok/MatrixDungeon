@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +12,19 @@ public abstract class BaseTask : ScriptableObject
     protected abstract void GenerateTask();
     public abstract bool CheckTask(List<List<int>> answer);
     public abstract List<List<int>> GetRightAnswer();
+
+    protected void Clear()
+    {
+        foreach (var elem in _layoutGroup.GetComponentsInChildren<MatrixDrawer>())
+        {
+            Destroy(elem.gameObject);
+        }
+
+        foreach (var elem in _layoutGroup.GetComponentsInChildren<TMP_Text>())
+        {
+            Destroy(elem.gameObject);
+        }
+    }
 
     protected MatrixDrawer GenerateMatrix(List<List<int>> matrix)
     {

@@ -3,8 +3,16 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-    public void ChangeScene(int number)
+    [SerializeField] private SceneName name;
+    public void ChangeScene()
     {
-        SceneManager.LoadScene(number);
+        SceneManager.LoadScene((int)name);
     }
+}
+
+public enum SceneName {
+    MainMenu,
+    Task1Dialogue,
+    Task1,
+    Task2
 }

@@ -23,8 +23,8 @@ public class TaskDrawer : MonoBehaviour
     public UnityEvent rightAnswerGetted;
     public UnityEvent notRightAnswerGetted;
     public UnityEvent amountOfTasksChanged;
-    public UnityEvent NotOkAnswerGetted;
-    
+    public UnityEvent NextTaskUnlocked;
+
     public int AmountOfTasks => amountOfTasks;
     public int NotRightAmountOfTasks => notRightAmountOfTasks;
 
@@ -63,11 +63,11 @@ public class TaskDrawer : MonoBehaviour
             rightAnswerGetted.Invoke();
             amountOfTasks++;
             amountOfTasksChanged.Invoke();
+            if (amountOfTasks >= 3) NextTaskUnlocked.Invoke();
         }
         else
         {
             notRightAnswerGetted.Invoke();
-            NotOkAnswerGetted.Invoke();
         }
     }
 }

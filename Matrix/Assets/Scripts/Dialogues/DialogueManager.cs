@@ -5,17 +5,17 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 
 public class DialogueManager : MonoBehaviour
 {
     [SerializeField] private TMP_Text[] _phrases;
     [SerializeField] private Transform position;
-	[SerializeField] private int _numberOfScene;
-    [SerializeField] private SceneChanger changer;
+    [FormerlySerializedAs("changer")] [SerializeField] private SceneChanger manager;
     private TMP_Text _currentPhrase;
     private int _cntPhrases;
     private int _numberOfPhrase;
-    
+
     private void Start()
     {
         _cntPhrases = _phrases.Length;
@@ -26,8 +26,7 @@ public class DialogueManager : MonoBehaviour
         if (_currentPhrase != null) Destroy(_currentPhrase.gameObject);
         if (_numberOfPhrase == _cntPhrases)
         {
-			changer.ChangeScene(_numberOfScene);
-			_numberOfScene++;
+			manager.ChangeScene();
         }
         else
         {

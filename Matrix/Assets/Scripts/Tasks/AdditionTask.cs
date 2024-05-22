@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 namespace Tasks
 {
-    [CreateAssetMenu(fileName = "BaseAdditionTask", menuName = "Task", order = 50)]
+    [CreateAssetMenu(fileName = "BaseAdditionTask", menuName = "Tasks/AdditionTask", order = 50)]
     public class AdditionTask: BaseTask
     {
         [SerializeField] private int maxValue;
@@ -20,15 +20,7 @@ namespace Tasks
 
         protected override void GenerateTask()
         {
-            foreach (var elem in _layoutGroup.GetComponentsInChildren<MatrixDrawer>())
-            {
-                Destroy(elem.gameObject);
-            }
-
-            foreach (var elem in _layoutGroup.GetComponentsInChildren<TMP_Text>())
-            {
-                Destroy(elem.gameObject);
-            }
+            Clear();
             
             _matrix1 = MatrixGenerator.GetMatrix(minValue, maxValue, rowCnt, columnCnt);
             _matrix2 = MatrixGenerator.GetMatrix(minValue, maxValue, rowCnt, columnCnt);

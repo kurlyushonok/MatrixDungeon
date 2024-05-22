@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
 
 namespace DefaultNamespace
 {
@@ -10,12 +11,12 @@ namespace DefaultNamespace
         private int _maxHp = 3;
         [SerializeField] private TaskDrawer taskDrawer;
 
-        public UnityEvent OnHpChanged;
+        [FormerlySerializedAs("OnHpChanged")] public UnityEvent HpChanged;
         public UnityEvent CharacterDied;
 
         private void Awake()
         {
-            taskDrawer.NotOkAnswerGetted.AddListener(GetDamage);
+            taskDrawer.notRightAnswerGetted.AddListener(GetDamage);
         }
 
         public int Hp
@@ -23,6 +24,8 @@ namespace DefaultNamespace
             get => _hp;
             set
             {
+                _hp = value;
+                HpChanged.Invoke();
                 if (value == 0) CharacterDied.Invoke();
             }
         }
@@ -31,7 +34,7 @@ namespace DefaultNamespace
 
         public void GetDamage()
         {
-            _hp--;
+            Hp--;
         }
     }
 }
