@@ -8,7 +8,7 @@ namespace DefaultNamespace.Extensions
         {
             if (list.Count != other.Count) return false;
             for (int i = 0; i < list.Count; i++)
-                for (int j = 0; j < list.Count; j++)
+                for (int j = 0; j < list[0].Count; j++)
                     if (list[i][j] != other[i][j])
                         return false;
             return true;
