@@ -12,7 +12,6 @@ namespace Tasks
         [SerializeField] private int minValue;
         [SerializeField] private TMP_Text textPrefab;
 
-        
         private List<List<int>> _matrix;
         protected override void GenerateTask()
         {

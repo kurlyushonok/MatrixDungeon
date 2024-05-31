@@ -14,7 +14,10 @@ public enum SceneName {
     MainMenu,
     Task1Dialogue,
     Task1,
+    Task2Dialogue,
     Task2,
+    Task3Dialogue,
     Task3,
+    Task4Dialogue,
     Task4,
 }
