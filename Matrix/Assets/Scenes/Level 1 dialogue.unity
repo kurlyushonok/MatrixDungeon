@@ -793,8 +793,7 @@ MonoBehaviour:
   - {fileID: 4748886165155483831, guid: 04278e654b826af4fbd73d970680fe85, type: 3}
   - {fileID: 3338311757079237784, guid: 278cca6ea24bc6b41b49b1515cde84f9, type: 3}
   position: {fileID: 1089573943}
-  _numberOfScene: 2
-  changer: {fileID: 1595215012}
+  manager: {fileID: 1952945803}
 --- !u!114 &1595215012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -804,9 +803,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1595215009}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a637a42eff08b9245a1349e31ac24aa6, type: 3}
+  m_Script: {fileID: 11500000, guid: 4503edfba7cc9ae44bb37824622491e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: 1
 --- !u!1 &1643698711
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,8 +969,9 @@ GameObject:
   - component: {fileID: 1952945802}
   - component: {fileID: 1952945801}
   - component: {fileID: 1952945800}
+  - component: {fileID: 1952945803}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: Dialogue Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1062,6 +1063,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1952945803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952945798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4503edfba7cc9ae44bb37824622491e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

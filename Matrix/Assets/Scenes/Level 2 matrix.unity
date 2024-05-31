@@ -139,6 +139,18 @@ PrefabInstance:
       propertyPath: HpChanged.m_PersistentCalls.m_Calls.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2504556244878321929, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 264
+      objectReference: {fileID: 0}
+    - target: {fileID: 2504556244878321929, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2905453053051296582, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4256433246466643404, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -223,6 +235,14 @@ PrefabInstance:
       propertyPath: m_text
       value: "\u0422\u0440\u0430\u043D\u0441\u043F\u043E\u043D\u0438\u0440\u0443\u0439\u0442\u0435
         \u043C\u0430\u0442\u0440\u0438\u0446\u0443"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5154159523842653315, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 543.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 5154159523842653315, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -162.06993
       objectReference: {fileID: 0}
     - target: {fileID: 5219453844973879425, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
       propertyPath: m_Name

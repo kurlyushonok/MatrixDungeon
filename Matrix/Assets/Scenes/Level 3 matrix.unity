@@ -231,6 +231,10 @@ PrefabInstance:
       propertyPath: HpChanged.m_PersistentCalls.m_Calls.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2753717924688658823, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -40
+      objectReference: {fileID: 0}
     - target: {fileID: 4256433246466643404, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -319,6 +323,14 @@ PrefabInstance:
       propertyPath: _answerMatrixDrawerPrefab
       value: 
       objectReference: {fileID: 7590816774840582045, guid: 4537dead965e25a4bb1402f8b2b87105, type: 3}
+    - target: {fileID: 5763573830515384880, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 7.1637
+      objectReference: {fileID: 0}
+    - target: {fileID: 5763573830515384880, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -241.14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
