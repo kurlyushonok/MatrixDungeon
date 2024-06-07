@@ -32,4 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 4 matrix.unity
     guid: f2538f89235ec2549b2c146f88469e4d
+  - enabled: 1
+    path: Assets/Scenes/Level 5 dialogue.unity
+    guid: 72a2bde9765e3244b8dc2099bf923c76
+  - enabled: 1
+    path: Assets/Scenes/Level 5 matrix.unity
+    guid: eeae504832aee594ca3f772edddd64ab
   m_configObjects: {}

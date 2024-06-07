@@ -18,5 +18,5 @@ MonoBehaviour:
   rowCnt1: 3
   columnCnt1: 3
   rowCnt2: 3
-  columnCnt2: 3
+  columnCnt2: 2
   textPrefab: {fileID: 1761496932726069100, guid: 58a41fe9134dd394189b22502590b580, type: 3}

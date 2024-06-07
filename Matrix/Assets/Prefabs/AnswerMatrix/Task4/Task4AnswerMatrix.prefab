@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4303f2bdb9145b181f2c9d467a78218, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringDrawerPrefab: {fileID: 8428895448126914743, guid: ba067ff4ea5585244ab8ca68ffc8fc5b, type: 3}
+  stringDrawerPrefab: {fileID: 8428895448126914743, guid: a5507f275973e554ca8f20a06fc78236, type: 3}
   layoutGroup: {fileID: 3774397529599219389}
   button: {fileID: 0}
 --- !u!114 &1461452673770345050
