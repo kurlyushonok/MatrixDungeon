@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4ed2f96455841d593b4d3c702e9caa0, type: 3}
   m_Name: BaseFinalTask
   m_EditorClassIdentifier: 
-  matrixDrawerPrefab: {fileID: 0}
-  maxValue: 0
+  matrixDrawerPrefab: {fileID: 2829111310837216712, guid: a0fd386834fd95c4eb3ff116d18fdd1b, type: 3}
+  maxValue: 5
   minValue: 0
-  rowCnt: 0
-  columnCnt: 0
-  textPrefab: {fileID: 0}
+  rowCnt: 2
+  columnCnt: 2
+  textPrefab: {fileID: 1761496932726069100, guid: 58a41fe9134dd394189b22502590b580, type: 3}
