@@ -279,9 +279,29 @@ PrefabInstance:
       propertyPath: _answerMatrixDrawerPrefab
       value: 
       objectReference: {fileID: 7590816774840582045, guid: 72d96b2a6e8da8c43af68d3486f3a58d, type: 3}
+    - target: {fileID: 6212475471526664941, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 00f7192514f392b4fa0032f4ea4d2d0c, type: 3}
     - target: {fileID: 6900844237962721769, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
       propertyPath: name
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970566439416705084, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 403
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970566439416705084, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 662
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970566439416705084, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 729
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970566439416705084, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -426,9 +426,29 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6212475471526664941, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 38a9d475934004b45a1d1cc4aad75183, type: 3}
     - target: {fileID: 6900844237962721769, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
       propertyPath: name
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970566439416705084, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 311
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970566439416705084, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 491
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970566439416705084, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 727
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970566439416705084, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -85
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -455,7 +475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4503edfba7cc9ae44bb37824622491e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 0
+  name: 11
 --- !u!1 &1637948697 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5965561543623021403, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}

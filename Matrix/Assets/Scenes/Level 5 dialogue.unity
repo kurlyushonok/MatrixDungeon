@@ -171,6 +171,26 @@ PrefabInstance:
       propertyPath: name
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4285709026880385349, guid: 7931ffd625b58374fabf8997a0a6b07d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 310.9972
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285709026880385349, guid: 7931ffd625b58374fabf8997a0a6b07d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 490.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285709026880385349, guid: 7931ffd625b58374fabf8997a0a6b07d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 727
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285709026880385349, guid: 7931ffd625b58374fabf8997a0a6b07d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -84.658
+      objectReference: {fileID: 0}
+    - target: {fileID: 5547023347804620123, guid: 7931ffd625b58374fabf8997a0a6b07d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 38a9d475934004b45a1d1cc4aad75183, type: 3}
     - target: {fileID: 5983688836720475454, guid: 7931ffd625b58374fabf8997a0a6b07d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
