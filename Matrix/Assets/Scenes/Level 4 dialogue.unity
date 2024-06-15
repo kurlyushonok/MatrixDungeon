@@ -359,6 +359,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 436898844}
+    - target: {fileID: 8711565573631937305, guid: 7931ffd625b58374fabf8997a0a6b07d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 82b1b7d1e2113864387ea582a81d82f6, type: 3}
     - target: {fileID: 8785019085752336140, guid: 7931ffd625b58374fabf8997a0a6b07d, type: 3}
       propertyPath: name
       value: 8

@@ -265,6 +265,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 309583269331313174, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1964833183}
+    - target: {fileID: 323735703604152245, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_Volume
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 323735703604152245, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 29d44a8f6f7e97b46a16001049ad6a0f, type: 3}
     - target: {fileID: 872392353203808872, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
       propertyPath: HpChanged.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -300,6 +312,14 @@ PrefabInstance:
     - target: {fileID: 872392353203808872, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
       propertyPath: CharacterDied.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2117226996946730631, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2339736145639816991, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2504556244878321929, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -458,6 +478,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 00f7192514f392b4fa0032f4ea4d2d0c, type: 3}
+    - target: {fileID: 6444155813456214754, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6900844237962721769, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
       propertyPath: name
       value: 12
@@ -491,10 +515,10 @@ PrefabInstance:
       insertIndex: 5
       addedObject: {fileID: 1108155470}
     - targetCorrespondingSourceObject: {fileID: 4256433246466643404, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
-      insertIndex: -1
+      insertIndex: 6
       addedObject: {fileID: 1570139326}
     - targetCorrespondingSourceObject: {fileID: 4256433246466643404, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}
-      insertIndex: -1
+      insertIndex: 7
       addedObject: {fileID: 228944265}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b13d9f41bfc62784d851f2d05142f234, type: 3}

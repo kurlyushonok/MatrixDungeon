@@ -323,6 +323,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8360634159052521868, guid: 7931ffd625b58374fabf8997a0a6b07d, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1973346903}
     - target: {fileID: 8785019085752336140, guid: 7931ffd625b58374fabf8997a0a6b07d, type: 3}
       propertyPath: name
       value: 12
