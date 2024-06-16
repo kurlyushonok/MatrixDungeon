@@ -23,5 +23,6 @@ public enum SceneName {
     Task5Dialogue,
     Task5,
     Task6Dialogue,
-    Task6
+    Task6,
+    Final
 }

@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 6 matrix.unity
     guid: f2e599dd8317f3546bc5e0029e32d5fa
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: bbbf08788f9a1ae42b8061e4c9d6b514
   m_configObjects: {}
